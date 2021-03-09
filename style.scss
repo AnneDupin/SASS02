@@ -1,0 +1,35 @@
+/* Mémo variables */
+
+$frenchrasberry: #C33149;
+$auburn: #A22522;
+$persiangreen: #2A9D8F;
+
+@mixin large {
+  font-family: Arial, Verdana, Helvetica;
+  font-weight: bold;
+  color: $frenchrasberry;
+}
+
+@mixin medium {
+  font-family: Tahoma, Trebuchet, 'Times New Roman';
+  font-weight: normal;
+  color: $auburn;
+}
+
+@mixin small {
+  font-family: Georgia, Garamond, 'Courier New';
+  font-weight: lighter;
+  color: $persiangreen;
+}
+
+.titre {
+@include large;
+}
+
+.corps {
+  @include medium;
+}
+
+li {
+  @include small;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Mémo variables */
+.titre {
+  font-family: Arial, Verdana, Helvetica;
+  font-weight: bold;
+  color: #C33149; }
+
+.corps {
+  font-family: Tahoma, Trebuchet, 'Times New Roman';
+  font-weight: normal;
+  color: #A22522; }
+
+li {
+  font-family: Georgia, Garamond, 'Courier New';
+  font-weight: lighter;
+  color: #2A9D8F; }
